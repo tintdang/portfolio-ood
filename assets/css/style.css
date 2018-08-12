@@ -1,3 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/oriental.png);
+}
+
 .brand-logo{
     margin-left: 20px;
+}
+
+#mainContent {
+    margin-top: 20px;
+    background-color: white;
 }
