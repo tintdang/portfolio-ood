@@ -17,42 +17,90 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo">Tin Dang</a>
-                <!-- Sidebar goes here -->
-                <a href="#" data-target="mobile" class="sidenav-trigger">Menu</a>
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- Navbar Start -->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">Tin Dang</a>
+                    <!-- Sidebar goes here -->
+                    <a href="#" data-target="mobile" class="sidenav-trigger">Menu</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <ul class="sidenav" id="mobile">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <!-- Navbar End -->
+    </header>
+
+    <main>
+        <!-- Content Start -->
+        <div class="container" id="mainContent">
+            <!-- Row 1 - Contact Me Header -->
+            <div class="row">
+                <div class="col l6 m12 s12">
+                    <h1>Contact Me</h1>
+                </div>
             </div>
-        </nav>
-    </div>
 
-    <ul class="sidenav" id="mobile">
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="portfolio.html">Portfolio</a>
-        </li>
-        <li>
-            <a href="contact.html">Contact</a>
-        </li>
-    </ul>
-    <!-- Navbar End -->
+            <div class="divider"></div>
 
+            <!-- Row 2 Name Input -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Enter Name" id="name" type="text">
+                    <label for="name">Name</label>
+                </div>
+            </div>
 
+            <!-- Row 2 Email Input -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Example@gmail.com" id="email" type="text">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <!-- Row 2 Message Input -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Enter Message Here</label>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container center-align">
+                &copy; Copyright 2018
+            </div>
+        </div>
+    </footer>
+</body>
 
 </body>
 
