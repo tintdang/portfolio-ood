@@ -40,3 +40,9 @@ h1 {
     color: #4aaaa5;
     font-size: 3em;
 }
+
+@media screen and (max-width: 992px) {
+    h1 {
+        text-align: center;
+    }
+}
