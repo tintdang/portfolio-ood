@@ -46,3 +46,16 @@ h1 {
         text-align: center;
     }
 }
+
+/* Portfolio boxes */
+
+.portfolio {
+    position: relative;
+}
+
+.textBox {
+    position: absolute;
+    width: 100%;
+    background: pink;
+    bottom: 25px;
+}

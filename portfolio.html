@@ -17,43 +17,94 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo">Tin Dang</a>
-                <!-- Sidebar goes here -->
-                <a href="#" data-target="mobile" class="sidenav-trigger">Menu</a>
-                <ul class="right hide-on-med-and-down">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- Navbar Start -->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">Tin Dang</a>
+                    <!-- Sidebar goes here -->
+                    <a href="#" data-target="mobile" class="sidenav-trigger">Menu</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <ul class="sidenav" id="mobile">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <!-- Navbar End -->
+    </header>
+
+    <main>
+        <!-- Content Start -->
+        <div class="container" id="mainContent">
+            <!-- Row 1 - Contact Me Header -->
+            <div class="row">
+                <div class="col l6 m12 s12">
+                    <h1>Portfolio</h1>
+                </div>
             </div>
-        </nav>
-    </div>
 
-    <ul class="sidenav" id="mobile">
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="portfolio.html">Portfolio</a>
-        </li>
-        <li>
-            <a href="contact.html">Contact</a>
-        </li>
-    </ul>
-    <!-- Navbar End -->
+            <div class="divider"></div>
+
+            <!-- Row 2 First 3 Projects -->
+            <div class="row">
+                <div class="col m4 s12">
+                    <div class="portfolio">
+                        <a href="https://tintdang.github.io/Word-Guess-Game/">
+                            <img class="responsive-img" src="assets/images/hangman.jpg" alt="hangman">
+                        </a>
+                        <h4 class="center-align textBox">Hangman Game</h4>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="portfolio">
+                        <a href="https://tintdang.github.io/unit-4-game/">
+                            <img class="responsive-img" src="assets/images/blue.jpg" alt="Crystal Collector">
+                        </a>
+                        <h4 class="center-align textBox">Crystal Collector</h4>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="portfolio">
+                        <a href="https://tintdang.github.io/TriviaGame/">
+                            <img class="responsive-img" src="assets/images/trivia.jpeg" alt="Trivia Game">
+                        </a>
+                        <h4 class="center-align textBox">Quiz Game</h4>
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
+    </main>
 
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container center-align">
+                &copy; Copyright 2018
+            </div>
+        </div>
+    </footer>
 </body>
 
 <!--JavaScript at end of body for optimized loading-->
