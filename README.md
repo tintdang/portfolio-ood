@@ -8,3 +8,4 @@ New updated portfolio with new knowlege
 - [ ] add scrollTo instead of jump tabs
 - [ ] fix portfolio images
 - [ ] submit button creates an email to designated email
+- [ ] fix portfolio img on mobile responsive to shrink into a smaller size
