@@ -76,8 +76,17 @@ h1 {
     width: 100%;
 }
 
-/* media queries */
+/* nav jumps */
+.navjump:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -100px 0 0;
+}
 
+
+
+/* media queries */
 
 @media screen and (max-width: 992px) {
     h1 {
