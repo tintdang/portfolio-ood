@@ -41,16 +41,12 @@ h1 {
     font-size: 3em;
 }
 
-@media screen and (max-width: 992px) {
-    h1 {
-        text-align: center;
-    }
-}
 
 /* Portfolio boxes */
 
 .portfolio {
     position: relative;
+    border: 2px solid black;
 }
 
 .textBox {
@@ -58,4 +54,45 @@ h1 {
     width: 100%;
     background: pink;
     bottom: 25px;
+}
+
+/* navbar and footer colors */
+
+.nav-wrapper,
+.footer-copyright {
+    background-color: mediumorchid;
+}
+.sidenav {
+    background-color: darkorchid;
+
+}
+
+.page-footer {
+    background-color: orchid;
+}
+
+
+.parallax img {
+    width: 100%;
+}
+
+/* media queries */
+
+
+@media screen and (max-width: 992px) {
+    h1 {
+        text-align: center;
+    }
+    .parallax-container {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+    }
+    .parallax-container {
+        height: 200px;
+    }
 }
