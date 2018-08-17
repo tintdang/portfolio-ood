@@ -42,7 +42,7 @@ h1 {
 }
 
 /* Title Font goes here */
-#helloFont > h2 {
+h2 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }
