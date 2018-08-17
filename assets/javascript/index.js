@@ -1,8 +1,8 @@
-(function($){
-    $(function(){
-      $('.parallax').parallax();
-      $('.sidenav').sidenav();
-  
-    }); // end of document ready
-  })(jQuery); // end of jQuery name space
-  
+$(function () {
+  $('.parallax').parallax();
+  $('.sidenav').sidenav();
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  })
+}); // end of document ready
