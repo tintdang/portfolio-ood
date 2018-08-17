@@ -41,6 +41,12 @@ h1 {
     font-size: 3em;
 }
 
+/* Title Font goes here */
+#helloFont > h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
 
 /* Portfolio boxes */
 
@@ -91,8 +97,13 @@ h1 {
     background-color: whitesmoke
 }
 
+/* About Me CSS */
 #aboutMe{
     padding-left: 30px;
+}
+
+#aboutMe > h3{
+    font-family: 'Fira Sans', sans-serif;
 }
 
 /* media queries */
