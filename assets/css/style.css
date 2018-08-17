@@ -74,6 +74,7 @@ h1 {
 
 .parallax img {
     width: 100%;
+    filter: brightness(60%)
 }
 
 /* nav jumps */
@@ -84,7 +85,15 @@ h1 {
     margin: -100px 0 0;
 }
 
+.valign-wrapper {flex-wrap: wrap}
 
+.section {
+    background-color: whitesmoke
+}
+
+#aboutMe{
+    padding-left: 30px;
+}
 
 /* media queries */
 
