@@ -91,7 +91,9 @@ h2 {
     margin: -100px 0 0;
 }
 
+/* fixes valign problem */
 .valign-wrapper {flex-wrap: wrap}
+
 
 .section {
     background-color: whitesmoke
@@ -109,19 +111,26 @@ h2 {
 /* media queries */
 
 @media screen and (max-width: 992px) {
-    h1 {
-        text-align: center;
-    }
     .parallax-container {
         height: 300px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    h1 {
-        text-align: center;
-    }
     .parallax-container {
         height: 200px;
+    }
+    #helloFont > h2{
+        font-size: 2em;
+    }
+    #aboutMe > h3 {
+        text-align: center;
+    }
+    #bio-photo{
+        height: 200px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
