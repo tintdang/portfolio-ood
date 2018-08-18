@@ -1,8 +1,5 @@
 $(function () {
   $('.parallax').parallax();
   $('.sidenav').sidenav();
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-  })
+  $('.slider').slider();
 }); // end of document ready

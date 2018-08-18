@@ -104,8 +104,17 @@ h2 {
     padding-left: 30px;
 }
 
-#aboutMe > h3{
+#aboutMe > h3 {
     font-family: 'Fira Sans', sans-serif;
+}
+
+/* fitting the images in the slider */
+.slides > li > img{
+    filter: brightness(40%)
+}
+.slides > li > img:hover{
+    filter: brightness(70%);
+    transition: filter 2s ease-out;
 }
 
 /* media queries */
