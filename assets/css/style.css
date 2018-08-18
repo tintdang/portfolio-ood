@@ -87,8 +87,8 @@ h2 {
 .navjump:before {
     display: block;
     content: "";
-    height: 100px;
-    margin: -100px 0 0;
+    height: 400px;
+    margin: -400px 0 0;
 }
 
 /* fixes valign problem */
@@ -96,7 +96,10 @@ h2 {
 
 
 .section {
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
 }
 
 /* About Me CSS */
@@ -104,17 +107,21 @@ h2 {
     padding-left: 30px;
 }
 
-#aboutMe > h3 {
+#aboutMe h3 {
     font-family: 'Fira Sans', sans-serif;
 }
 
 /* fitting the images in the slider */
-.slides > li > img{
+.slides li img{
     filter: brightness(40%)
 }
-.slides > li > img:hover{
+.slides li img:hover{
     filter: brightness(70%);
     transition: filter 2s ease-out;
+}
+
+h5 {
+    margin-bottom: 20px;
 }
 
 /* media queries */
@@ -129,10 +136,10 @@ h2 {
     .parallax-container {
         height: 200px;
     }
-    #helloFont > h2{
+    #helloFont h2{
         font-size: 2em;
     }
-    #aboutMe > h3 {
+    #aboutMe h3 {
         text-align: center;
     }
     #bio-photo{

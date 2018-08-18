@@ -11,3 +11,4 @@ New updated portfolio with new knowlege
 - [ ] fix portfolio img on mobile responsive to shrink into a smaller size
 - [ ] add project 1 to portfolio
 - [ ] implement scrollFire cause it's awesome
+- [ ] scroll to needs a media query
