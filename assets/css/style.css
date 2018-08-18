@@ -47,7 +47,13 @@ h2 {
     font-weight: bold;
 }
 
-
+/* slider box */
+.slider {
+    background: black;
+}
+li.indicator-item {
+margin-bottom: 9px !important;
+}
 /* Portfolio boxes */
 
 .portfolio {

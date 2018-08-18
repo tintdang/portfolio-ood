@@ -5,11 +5,12 @@ New updated portfolio with new knowlege
 
 
 ## Ideas
-- [ ] add scrollTo instead of jump tabs
-- [ ] fix portfolio images
+- [x] add scrollTo instead of jump tabs (was scrollspy)
+- ~~[ ] fix portfolio images~~
 - [ ] submit button creates an email to designated email
-- [ ] fix portfolio img on mobile responsive to shrink into a smaller size
-- [ ] add project 1 to portfolio
+- [x] fix portfolio img on mobile responsive to shrink into a smaller size
+- [x] add project 1 to portfolio
 - [ ] implement scrollFire cause it's awesome
-- [ ] scroll to needs a media query
+- [x] scroll to needs a media query
 - [ ] add social media
+- [ ] add button icons
