@@ -12,3 +12,4 @@ New updated portfolio with new knowlege
 - [ ] add project 1 to portfolio
 - [ ] implement scrollFire cause it's awesome
 - [ ] scroll to needs a media query
+- [ ] add social media
